@@ -1,3 +1,8 @@
 package com.pharbers.pptxmoudles
 
-case class PhExportPPT(id: String, path: String)
+import com.pharbers.common.commonMoudle
+import com.pharbers.macros.api.commonEntity
+
+class PhExportPPT()  extends commonEntity{
+    var path: String = ""
+}

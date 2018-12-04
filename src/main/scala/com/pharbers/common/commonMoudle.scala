@@ -1,5 +1,5 @@
 package com.pharbers.common
 
-class commonMoudle {
+import com.pharbers.macros.api.commonEntity
 
-}
+trait commonMoudle extends commonEntity

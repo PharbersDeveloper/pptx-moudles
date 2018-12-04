@@ -1,3 +1,11 @@
 package com.pharbers.pptxmoudles
 
-case class PhExcelPush(id: String, name: String, cell: String, cate: String, value: String)
+import com.pharbers.common.commonMoudle
+import com.pharbers.macros.api.commonEntity
+
+class PhExcelPush() extends commonEntity{
+    var name: String = ""
+    var cell: String = ""
+    var cate: String = ""
+    var value: String = ""
+}
