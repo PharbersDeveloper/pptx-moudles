@@ -1,6 +1,5 @@
 package com.pharbers.pptxmoudles
 
-import com.pharbers.common.commonMoudle
 import com.pharbers.macros.api.commonEntity
 
 class PhExcelPush() extends commonEntity{
