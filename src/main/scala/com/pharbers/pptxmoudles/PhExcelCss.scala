@@ -14,4 +14,6 @@ class PhExcelCss extends commonEntity{
     var cellBordersColor = "#CDFFFF"
     var width = "0"
     var height = "0"
+    var verticalAlignType = "Center"
+    var horizontalAlignType = "Center"
 }
