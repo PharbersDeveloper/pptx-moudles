@@ -3,7 +3,7 @@ package com.pharbers.pptxmoudles
 import com.pharbers.macros.api.commonEntity
 
 class PhExcelCss extends commonEntity{
-    var factory = "phPPTGen.phCommand.phExcel.PhSetXlsCssBaseCommand"
+    var factory = "PhPPTGen.phCommand.phExcel.PhSetXlsCssBaseCommand"
     var cell = ""
     var fontSize = ""
     var fontColor = ""
