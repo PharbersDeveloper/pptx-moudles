@@ -1,5 +1,7 @@
 package com.pharbers.pptxmoudles
 
-class PhCreateSlider {
+import com.pharbers.macros.api.commonEntity
 
+class PhCreateSlider() extends commonEntity{
+    var sliderType: String = ""
 }

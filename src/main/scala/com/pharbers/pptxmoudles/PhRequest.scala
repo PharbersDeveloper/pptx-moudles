@@ -9,6 +9,7 @@ import com.pharbers.macros.common.connecting.{One2OneConn, ToStringMacro}
 @One2OneConn[PhExportPPT]("exp")
 @One2OneConn[PhTextPPT]("text")
 @One2OneConn[PhExcel2Chart]("e2c")
+@One2OneConn[PhCreateSlider]("slider")
 class PhRequest() extends commonEntity{
     var jobid: String =""
     var command: String = ""
