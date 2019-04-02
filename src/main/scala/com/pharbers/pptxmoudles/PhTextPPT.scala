@@ -6,5 +6,5 @@ class PhTextPPT() extends commonEntity{
     var content: String = ""
     var pos: List[Int] = List()
     var slider: Int = 0
-    var css: String = ""
+    var shapeType: String = ""
 }
